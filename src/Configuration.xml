@@ -179,7 +179,7 @@
 		</Properties>
 		<ChildObjects>
 			<Language>Русский</Language>
-			<DataProcessor>GreenAPI</DataProcessor>
+			<DataProcessor>BasisAPI</DataProcessor>
 		</ChildObjects>
 	</Configuration>
 </MetaDataObject>

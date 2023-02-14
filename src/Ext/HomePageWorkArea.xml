@@ -4,7 +4,7 @@
 	<LeftColumn/>
 	<RightColumn>
 		<Item>
-			<Form>DataProcessor.GreenAPI.Form.Форма</Form>
+			<Form>DataProcessor.BasisAPI.Form.Форма</Form>
 			<Height>10</Height>
 			<Visibility>
 				<xr:Common>true</xr:Common>
