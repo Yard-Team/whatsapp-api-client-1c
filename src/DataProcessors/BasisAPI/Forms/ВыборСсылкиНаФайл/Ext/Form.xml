@@ -65,7 +65,7 @@
 					<GroupHorizontalAlign>Right</GroupHorizontalAlign>
 					<CommandName>Form.Command.Отправить</CommandName>
 					<TextColor>web:White</TextColor>
-					<BackColor>#49B349</BackColor>
+					<BackColor>#2AA275</BackColor>
 					<ExtendedTooltip name="ОтправитьРасширеннаяПодсказка" id="8"/>
 				</Button>
 			</ChildItems>

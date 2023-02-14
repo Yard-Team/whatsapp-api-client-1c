@@ -34,7 +34,7 @@
 							<Title formatted="false">
 								<v8:item>
 									<v8:lang>ru</v8:lang>
-									<v8:content>GREEN API</v8:content>
+									<v8:content>BASIS API</v8:content>
 								</v8:item>
 							</Title>
 							<GroupHorizontalAlign>Center</GroupHorizontalAlign>
@@ -413,7 +413,7 @@ api.com/docs/api/receiving/technology-htt</v8:content>
 													<Title formatted="false">
 														<v8:item>
 															<v8:lang>ru</v8:lang>
-															<v8:content>Настройки доступны только после подключения к Green API</v8:content>
+															<v8:content>Настройки доступны только после подключения к Basis API</v8:content>
 														</v8:item>
 													</Title>
 													<ContextMenu name="ДекорацияНастройкиНедоступныКонтекстноеМеню" id="237"/>

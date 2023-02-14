@@ -23,7 +23,7 @@
 					<Width>130</Width>
 					<Representation>None</Representation>
 					<ShowTitle>false</ShowTitle>
-					<BackColor>#4FAD4F</BackColor>
+					<BackColor>#2AA275</BackColor>
 					<ExtendedTooltip name="Группа3РасширеннаяПодсказка" id="184"/>
 					<ChildItems>
 						<LabelDecoration name="BASISAPI" id="185">
@@ -34,7 +34,7 @@
 							<Title formatted="false">
 								<v8:item>
 									<v8:lang>ru</v8:lang>
-									<v8:content>GREEN API</v8:content>
+									<v8:content>BASIS API</v8:content>
 								</v8:item>
 							</Title>
 							<GroupHorizontalAlign>Center</GroupHorizontalAlign>
@@ -126,7 +126,7 @@
 													<Type>UsualButton</Type>
 													<CommandName>Form.Command.КнопкаПомощник</CommandName>
 													<TextColor>web:White</TextColor>
-													<BackColor>#49B349</BackColor>
+													<BackColor>#2AA275</BackColor>
 													<Font ref="style:NormalTextFont" height="12" bold="true" italic="false" underline="false" strikeout="false" kind="StyleItem"/>
 													<Title>
 														<v8:item>
@@ -413,7 +413,7 @@ api.com/docs/api/receiving/technology-htt</v8:content>
 													<Title formatted="false">
 														<v8:item>
 															<v8:lang>ru</v8:lang>
-															<v8:content>Настройки доступны только после подключения к Green API</v8:content>
+															<v8:content>Настройки доступны только после подключения к Basis API</v8:content>
 														</v8:item>
 													</Title>
 													<ContextMenu name="ДекорацияНастройкиНедоступныКонтекстноеМеню" id="237"/>

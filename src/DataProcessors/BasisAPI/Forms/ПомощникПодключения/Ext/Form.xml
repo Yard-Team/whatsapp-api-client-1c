@@ -51,7 +51,7 @@
 											<v8:content>Страница декорации начало</v8:content>
 										</v8:item>
 									</Title>
-									<BackColor>#49B349</BackColor>
+									<BackColor>#2AA275</BackColor>
 									<ExtendedTooltip name="СтраницаДекорацииНачалоExtendedTooltip" id="97"/>
 									<ChildItems>
 										<LabelDecoration name="BASISAPI" id="172">
@@ -62,7 +62,7 @@
 											<Title formatted="false">
 												<v8:item>
 													<v8:lang>ru</v8:lang>
-													<v8:content>GREEN API</v8:content>
+													<v8:content>BASIS API</v8:content>
 												</v8:item>
 											</Title>
 											<GroupHorizontalAlign>Center</GroupHorizontalAlign>
@@ -79,7 +79,7 @@
 											<v8:content>Страница декорации продолжение</v8:content>
 										</v8:item>
 									</Title>
-									<BackColor>#49B349</BackColor>
+									<BackColor>#2AA275</BackColor>
 									<ExtendedTooltip name="СтраницаДекорацииПродолжениеExtendedTooltip" id="99"/>
 									<ChildItems>
 										<LabelDecoration name="BASISAPI1" id="177">
@@ -90,7 +90,7 @@
 											<Title formatted="false">
 												<v8:item>
 													<v8:lang>ru</v8:lang>
-													<v8:content>GREEN API</v8:content>
+													<v8:content>BASIS API</v8:content>
 												</v8:item>
 											</Title>
 											<GroupHorizontalAlign>Center</GroupHorizontalAlign>
@@ -107,7 +107,7 @@
 											<v8:content>Страница декорации окончание</v8:content>
 										</v8:item>
 									</Title>
-									<BackColor>#49B349</BackColor>
+									<BackColor>#2AA275</BackColor>
 									<ExtendedTooltip name="СтраницаДекорацииОкончаниеExtendedTooltip" id="101"/>
 									<ChildItems>
 										<LabelDecoration name="BASISAPI2" id="182">
@@ -118,7 +118,7 @@
 											<Title formatted="false">
 												<v8:item>
 													<v8:lang>ru</v8:lang>
-													<v8:content>GREEN API</v8:content>
+													<v8:content>BASIS API</v8:content>
 												</v8:item>
 											</Title>
 											<GroupHorizontalAlign>Center</GroupHorizontalAlign>
@@ -243,7 +243,7 @@
 													<Title formatted="false">
 														<v8:item>
 															<v8:lang>ru</v8:lang>
-															<v8:content>Зарегистрируйтесь в личном кабинете Green API</v8:content>
+															<v8:content>Зарегистрируйтесь в личном кабинете Basis API</v8:content>
 														</v8:item>
 													</Title>
 													<GroupHorizontalAlign>Center</GroupHorizontalAlign>
@@ -256,12 +256,12 @@
 													<Height>2</Height>
 													<CommandName>Form.Command.ЗарегистрироватьсяВBasisAPI</CommandName>
 													<TextColor>web:White</TextColor>
-													<BackColor>#49B349</BackColor>
+													<BackColor>#2AA275</BackColor>
 													<Font ref="style:LargeTextFont" kind="StyleItem"/>
 													<Title>
 														<v8:item>
 															<v8:lang>ru</v8:lang>
-															<v8:content>Зарегистрироваться в GREEN API</v8:content>
+															<v8:content>Зарегистрироваться в BASIS API</v8:content>
 														</v8:item>
 													</Title>
 													<ExtendedTooltip name="ЗарегистрироватьсяВBasisAPIРасширеннаяПодсказка" id="368"/>
@@ -981,7 +981,7 @@
 													<Width>3</Width>
 													<CommandName>Form.Command.КомандаДалее</CommandName>
 													<TextColor>web:White</TextColor>
-													<BackColor>#49B349</BackColor>
+													<BackColor>#2AA275</BackColor>
 													<Font ref="style:LargeTextFont" kind="StyleItem"/>
 													<ExtendedTooltip name="КомандаДалееExtendedTooltip" id="126"/>
 												</Button>
@@ -1033,7 +1033,7 @@
 													<DefaultItem>true</DefaultItem>
 													<CommandName>Form.Command.КомандаДалее</CommandName>
 													<TextColor>web:White</TextColor>
-													<BackColor>#49B349</BackColor>
+													<BackColor>#2AA275</BackColor>
 													<Font ref="style:LargeTextFont" kind="StyleItem"/>
 													<LocationInCommandBar>InCommandBarAndInAdditionalSubmenu</LocationInCommandBar>
 													<ExtendedTooltip name="КомандаДалее1ExtendedTooltip" id="132"/>
@@ -1078,7 +1078,7 @@
 													<Type>CommandBarButton</Type>
 													<CommandName>Form.Command.КомандаГотово</CommandName>
 													<TextColor>web:White</TextColor>
-													<BackColor>#49B349</BackColor>
+													<BackColor>#2AA275</BackColor>
 													<Font ref="style:LargeTextFont" kind="StyleItem"/>
 													<ExtendedTooltip name="КомандаГотовоExtendedTooltip" id="138"/>
 												</Button>
@@ -1319,7 +1319,7 @@
 			<Title>
 				<v8:item>
 					<v8:lang>ru</v8:lang>
-					<v8:content>Используйте Green API для чат ботов</v8:content>
+					<v8:content>Используйте Basis API для чат ботов</v8:content>
 				</v8:item>
 			</Title>
 			<Type>
@@ -1330,7 +1330,7 @@
 			<Title>
 				<v8:item>
 					<v8:lang>ru</v8:lang>
-					<v8:content>Используйте Green API для общения с клиентами из 1С</v8:content>
+					<v8:content>Используйте Basis API для общения с клиентами из 1С</v8:content>
 				</v8:item>
 			</Title>
 			<Type>
@@ -1341,7 +1341,7 @@
 			<Title>
 				<v8:item>
 					<v8:lang>ru</v8:lang>
-					<v8:content>Используйте Green API для отправки уведомлений только своим клиентам</v8:content>
+					<v8:content>Используйте Basis API для отправки уведомлений только своим клиентам</v8:content>
 				</v8:item>
 			</Title>
 			<Type>
@@ -1434,13 +1434,13 @@
 			<Title>
 				<v8:item>
 					<v8:lang>ru</v8:lang>
-					<v8:content>Зарегистрируйтесь в личном кабинете Green API</v8:content>
+					<v8:content>Зарегистрируйтесь в личном кабинете Basis API</v8:content>
 				</v8:item>
 			</Title>
 			<ToolTip>
 				<v8:item>
 					<v8:lang>ru</v8:lang>
-					<v8:content>Зарегистрироваться в green API</v8:content>
+					<v8:content>Зарегистрироваться в BASIS API</v8:content>
 				</v8:item>
 			</ToolTip>
 			<Action>ЗарегистрироватьсяВBasisAPI</Action>
