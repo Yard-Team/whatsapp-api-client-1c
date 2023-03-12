@@ -666,19 +666,19 @@
 &НаКлиенте
 Процедура СсылкаФорматВходящихУведомленийНажатие(Элемент)
 	Оповещение = Новый ОписаниеОповещения("ЗавершитьЗапускПриложенияGR", ЭтотОбъект);
-	НачатьЗапускПриложения(Оповещение, "https://basis-api.com/docs/api/receiving/notifications-format/");
+	НачатьЗапускПриложения(Оповещение, "https://ru-cabinet.basis-api.com/docs/ru/api/receiving/notifications-format/");
 КонецПроцедуры
 
 &НаКлиенте
 Процедура СсылкаПолучитьУведомлениеНажатие(Элемент)
 	Оповещение = Новый ОписаниеОповещения("ЗавершитьЗапускПриложенияGR", ЭтотОбъект);	
-	НачатьЗапускПриложения(Оповещение, "https://basis-api.com/docs/api/receiving/technology-http-api/ReceiveNotification/");
+	НачатьЗапускПриложения(Оповещение, "https://ru-cabinet.basis-api.com/docs/ru/api/receiving/technology-http-api/ReceiveNotification/");
 КонецПроцедуры
 
 &НаКлиенте
 Процедура СсылкаУдалитьУведомлениеНажатие(Элемент)
 	Оповещение = Новый ОписаниеОповещения("ЗавершитьЗапускПриложенияGR", ЭтотОбъект);
-	НачатьЗапускПриложения(Оповещение, "https://basis-api.com/docs/api/receiving/technology-http-api/DeleteNotification/");
+	НачатьЗапускПриложения(Оповещение, "https://ru-cabinet.basis-api.com/docs/ru/api/receiving/technology-http-api/DeleteNotification/");
 КонецПроцедуры
 
 &НаКлиенте
@@ -1233,19 +1233,19 @@
 &НаКлиенте
 Процедура СсылкаОтправитьТекстНажатие(Элемент)
 	Оповещение = Новый ОписаниеОповещения("ЗавершитьЗапускПриложенияGR", ЭтотОбъект);
-	НачатьЗапускПриложения(Оповещение, "https://basis-api.com/docs/api/sending/SendMessage/");
+	НачатьЗапускПриложения(Оповещение, "https://ru-cabinet.basis-api.com/docs/ru/api/sending/SendMessage/");
 КонецПроцедуры
 
 &НаКлиенте
 Процедура СсылкаОтправитьФайлНажатие(Элемент)
 	Оповещение = Новый ОписаниеОповещения("ЗавершитьЗапускПриложенияGR", ЭтотОбъект);	
-	НачатьЗапускПриложения(Оповещение, "https://basis-api.com/docs/api/sending/SendFileByUpload/");
+	НачатьЗапускПриложения(Оповещение, "https://ru-cabinet.basis-api.com/docs/ru/api/sending/SendFileByUpload/");
 КонецПроцедуры
 
 &НаКлиенте
 Процедура СсылкаОтправитьФайлПоСсылкеНажатие(Элемент)
 	Оповещение = Новый ОписаниеОповещения("ЗавершитьЗапускПриложенияGR", ЭтотОбъект);	
-	НачатьЗапускПриложения(Оповещение, "https://basis-api.com/docs/api/sending/SendFileByUrl/");
+	НачатьЗапускПриложения(Оповещение, "https://ru-cabinet.basis-api.com/docs/ru/api/sending/SendFileByUrl/");
 КонецПроцедуры
 
 &НаКлиенте

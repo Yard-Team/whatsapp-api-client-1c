@@ -73,7 +73,7 @@
 КонецПроцедуры
 
 // Обработчик, срабатывающий при получении текстового сообщения 
-// https://basis-api.com/docs/api/receiving/notifications-format/incoming-message/Webhook-IncomingMessageReceived/
+// https://ru-cabinet.basis-api.com/docs/ru/api/receiving/notifications-format/incoming-message/Webhook-IncomingMessageReceived/
 // Параметры,
 //  Отказ - Булево -  Если Истина, то сообщение не будет подтверждено и вернется на сервер 
 //    для повторного получения
@@ -85,7 +85,7 @@
 КонецПроцедуры
 
 // Обработчик, срабатывающий при получении файлового сообщения
-// https://basis-api.com/docs/api/receiving/notifications-format/incoming-message/ImageMessage/
+// https://ru-cabinet.basis-api.com/docs/ru/api/receiving/notifications-format/incoming-message/ImageMessage/
 // Параметры,
 //  Отказ - Булево -  Если Истина, то сообщение не будет подтверждено и вернется на сервер 
 //    для повторного получения
@@ -98,7 +98,7 @@
 КонецПроцедуры
 
 // Обработчик, срабатывающий при получении статуса ранее отправленного сообщения, отправлено, доставлено, прочитано и др.
-// https://basis-api.com/docs/api/receiving/notifications-format/outgoing-message/OutgoingMessageStatus/
+// https://ru-cabinet.basis-api.com/docs/ru/api/receiving/notifications-format/outgoing-message/OutgoingMessageStatus/
 // Параметры,
 //  Отказ - Булево -  Если Истина, то сообщение не будет подтверждено и вернется на сервер 
 //    для повторного получения
@@ -112,7 +112,7 @@
 КонецПроцедуры
 
 // Обработчик, срабатывающий при получении данных о состоянии авторизации аккаунта.
-// https://basis-api.com/docs/api/receiving/notifications-format/StateInstanceChanged/
+// https://ru-cabinet.basis-api.com/docs/ru/api/receiving/notifications-format/StateInstanceChanged/
 //
 // Параметры,
 //  Отказ - Булево -  Если Истина, то сообщение не будет подтверждено и вернется на сервер 
@@ -148,7 +148,7 @@
 #Область Аккаунт
 
 // Метод предназначен для получения текущих настроек аккаунта.
-// Подробнее https://basis-api.com/docs/api/account/GetSettings/
+// Подробнее https://ru-cabinet.basis-api.com/docs/ru/api/account/GetSettings/
 // 
 // Возвращаемое значение:
 //  ЧтениеJSON  - Ответ сервера
@@ -165,10 +165,10 @@
 
 // Метод предназначен для установки настроек аккаунта. 
 // Допускается указывать параметры выборочно. Хотя бы один параметр должен быть указан.
-// Подробнее https://basis-api.com/docs/api/account/SetSettings/
+// Подробнее https://ru-cabinet.basis-api.com/docs/ru/api/account/SetSettings/
 //
 // Параметры:
-//  СтруктураНастроек - Структура - См описание метода https://basis-api.com/docs/api/account/SetSettings/
+//  СтруктураНастроек - Структура - См описание метода https://ru-cabinet.basis-api.com/docs/ru/api/account/SetSettings/
 // 
 // Возвращаемое значение:
 //  ЧтениеJSON  - Ответ сервера
@@ -186,7 +186,7 @@
 КонецФункции
 
 // Метод предназначен для получения состояния аккаунта.
-// Подробнее https://basis-api.com/docs/api/account/GetStateInstance/
+// Подробнее https://ru-cabinet.basis-api.com/docs/ru/api/account/GetStateInstance/
 // 
 // Возвращаемое значение:
 //  ЧтениеJSON  - Ответ сервера
@@ -202,7 +202,7 @@
 КонецФункции
 
 // Метод предназначен для перезапуска аккаунта.
-// Подробнее https://basis-api.com/docs/api/account/Reboot/
+// Подробнее https://ru-cabinet.basis-api.com/docs/ru/api/account/Reboot/
 // 
 // Возвращаемое значение:
 //  ЧтениеJSON  - Ответ сервера
@@ -218,7 +218,7 @@
 КонецФункции
 
 // Метод предназначен для разлогинивания аккаунта.
-// Подробнее https://basis-api.com/docs/api/account/Logout/
+// Подробнее https://ru-cabinet.basis-api.com/docs/ru/api/account/Logout/
 // 
 // Возвращаемое значение:
 //  ЧтениеJSON  - Ответ сервера
@@ -236,7 +236,7 @@
 // Метод предназначен для получения QR-кода. Для авторизации аккаунта требуется считать QR-код из приложения
 // WhatsApp Business на телефоне. Также получить QR-код и авторизовать аккаунт можно в личном кабинете. 
 // Процедура авторизации аккаунта через личный кабинет описана в разделе Перед началом работы.
-// Подробнее https://basis-api.com/docs/api/account/QR/
+// Подробнее https://ru-cabinet.basis-api.com/docs/ru/api/account/QR/
 // 
 // Возвращаемое значение:
 //  ЧтениеJSON  - Ответ сервера
@@ -257,7 +257,7 @@
 // Метод предназначен для отправки текстового сообщения в личный или групповой чат. 
 // Сообщение будет добавлено в очередь на отправку. Скорость отправки сообщений из очереди регулирует 
 // параметр Интервал отправки сообщений.
-// Подробнее https://basis-api.com/docs/api/sending/SendMessage/
+// Подробнее https://ru-cabinet.basis-api.com/docs/ru/api/sending/SendMessage/
 //
 // Параметры:
 //  Телефон - Строка - Номер мобильного телефона
@@ -287,7 +287,7 @@
 // Метод предназначен для отправки текстового сообщения в личный или групповой чат. 
 // Сообщение будет добавлено в очередь на отправку. Скорость отправки сообщений из очереди регулирует 
 // параметр Интервал отправки сообщений.
-// Подробнее https://basis-api.com/docs/api/sending/SendMessage/
+// Подробнее https://ru-cabinet.basis-api.com/docs/ru/api/sending/SendMessage/
 //
 // Параметры:
 //  ИдЧата - Строка - Номер чата в формате 79001234568@c.us
@@ -314,7 +314,7 @@
 // Метод предназначен для отправки файла, загружаемого через форму (form-data). 
 // Сообщение будет добавлено в очередь на отправку. Скорость отправки сообщений из
 // очереди регулирует параметр Интервал отправки сообщений.
-// Подробнее https://basis-api.com/docs/api/sending/SendFileByUpload/
+// Подробнее https://ru-cabinet.basis-api.com/docs/ru/api/sending/SendFileByUpload/
 //
 // Параметры:
 //  Телефон - Строка - Номер мобильного телефона
@@ -376,7 +376,7 @@
 КонецФункции
 
 // Метод предназначен для установки аватара аккаунта (form-data). 
-// Подробнее https://basis-api.com/docs/api/account/SetProfilePicture/
+// Подробнее https://ru-cabinet.basis-api.com/docs/ru/api/account/SetProfilePicture/
 //
 // Параметры:
 //  ПутьКФайлу- Полный путь к файлу на диске
@@ -417,7 +417,7 @@
 // Метод предназначен для отправки файла, загружаемого по ссылке.
 // Сообщение будет добавлено в очередь на отправку. Скорость отправки сообщений из 
 // очереди регулирует параметр Интервал отправки сообщений.
-// Подробнее https://basis-api.com/docs/api/sending/SendFileByUrl/
+// Подробнее https://ru-cabinet.basis-api.com/docs/ru/api/sending/SendFileByUrl/
 //
 // Параметры:
 //  Телефон - Строка - Номер мобильного телефона
@@ -450,7 +450,7 @@
 КонецФункции
 
 // Метод предназначен для отправки сообщения геолокации. Сообщение будет добавлено в очередь на отправку
-// Подробнее https://basis-api.com/docs/api/sending/SendLocation/
+// Подробнее https://ru-cabinet.basis-api.com/docs/ru/api/sending/SendLocation/
 //
 // Параметры:
 //  Телефон - Строка - Номер мобильного телефона
@@ -484,7 +484,7 @@
 // Формируется визитная карточка контакта и отправляется в чат. 
 // Сообщение будет добавлено в очередь на отправку. Скорость отправки сообщений из 
 // очереди регулирует параметр Интервал отправки сообщений.
-// Подробнее https://basis-api.com/docs/api/sending/SendContact/
+// Подробнее https://ru-cabinet.basis-api.com/docs/ru/api/sending/SendContact/
 //
 // Параметры:
 //  Телефон - Строка - Номер мобильного телефона
@@ -524,7 +524,7 @@
 // превью изображения, заголовок и описание. Картинка, заголовок и описание получаются 
 // из Open Graph разметки страницы, на которую указывает ссылка. Сообщение будет добавлено в очередь на отправку. 
 // Скорость отправки сообщений из очереди регулирует параметр Интервал отправки сообщений.
-// Подробнее https://basis-api.com/docs/api/sending/SendLink/
+// Подробнее https://ru-cabinet.basis-api.com/docs/ru/api/sending/SendLink/
 //
 // Параметры:
 //  Телефон - Строка - Номер мобильного телефона
@@ -553,7 +553,7 @@
 // на телефоне (т.е. наличие в связанных устройствах) не выполняется. Сообщение на отправку
 // хранится 24 часа в очереди и будет отправлено сразу же после авторизации телефона.
 // Скорость отправки сообщений из очереди регулирует параметр Интервал отправки сообщений.
-// Подробнее https://basis-api.com/docs/api/sending/ForwardMessages/
+// Подробнее https://ru-cabinet.basis-api.com/docs/ru/api/sending/ForwardMessages/
 //
 // Параметры:
 //  ИдЧата - Строка - Номер чата в формате 79001234568@c.us
@@ -590,7 +590,7 @@
 // Вызов метода завершается с пустым ответом в случае достижения таймаута. 
 // Если в течение 20 сек в очереди появляется уведомление, то вызов метода завешается, 
 // и метод возвращает полученное уведомление.
-// Подробнее https://basis-api.com/docs/api/receiving/technology-http-api/ReceiveNotification/
+// Подробнее https://ru-cabinet.basis-api.com/docs/ru/api/receiving/technology-http-api/ReceiveNotification/
 // 
 // Возвращаемое значение:
 //  ЧтениеJSON  - Ответ сервера
@@ -612,7 +612,7 @@
 // и обработанным и будет безвозвратно удалено из очереди. Таким образом следующий вызов
 // метода ПолучитьУведомление вернет следующее уведомление из очереди в порядке поступления уведомлений в очередь.
 // Срок хранения входящих уведомлений в очереди составляет 24 часа.
-// Подробнее https://basis-api.com/docs/api/receiving/technology-http-api/DeleteNotification/
+// Подробнее https://ru-cabinet.basis-api.com/docs/ru/api/receiving/technology-http-api/DeleteNotification/
 //
 // Параметры:
 //  НомерУведомления - Число - Идентификатор доставки для удаления входящего уведомления, полученный методом ПолучитьУведомление()
@@ -679,7 +679,7 @@
 // Ссылки на принятые файлы передаются во Входящих сообщениях, а также их можно
 // получить методом LastIncomingMessages. Ссылки на отправленные
 // файлы можно получить методом LastOutgoingMessages.
-// Подробнее https://basis-api.com/docs/api/receiving/files/DownloadFile/
+// Подробнее https://ru-cabinet.basis-api.com/docs/ru/api/receiving/files/DownloadFile/
 //
 // Параметры:
 //  ИдСообщения - Строка - Идентификатор сообщения, передаваемый во Входящих сообщениях или 
@@ -706,7 +706,7 @@
 
 // Метод возвращает крайние входящие сообщения аккаунта.
 // Срок хранения входящих сообщений на сервере составляет 24 часа.
-// Подробнее https://basis-api.com/docs/api/journals/LastIncomingMessages/
+// Подробнее https://ru-cabinet.basis-api.com/docs/ru/api/journals/LastIncomingMessages/
 // 
 // Возвращаемое значение:
 //  ЧтениеJSON  - Ответ сервера
@@ -723,7 +723,7 @@
 
 // Метод возвращает крайние отправленные сообщения аккаунта.
 // Срок хранения отправленных сообщений на сервере составляет 24 часа.
-// Подробнее https://basis-api.com/docs/api/journals/LastOutgoingMessages/
+// Подробнее https://ru-cabinet.basis-api.com/docs/ru/api/journals/LastOutgoingMessages/
 // 
 // Возвращаемое значение:
 //  ЧтениеJSON  - Ответ сервера
@@ -739,7 +739,7 @@
 КонецФункции
 
 // Метод возвращает историю сообщений чата.
-// Подробнее https://basis-api.com/docs/api/journals/GetChatHistory/
+// Подробнее https://ru-cabinet.basis-api.com/docs/ru/api/journals/GetChatHistory/
 // 
 // Возвращаемое значение:
 //  ЧтениеJSON  - Ответ сервера
@@ -766,7 +766,7 @@
 
 // Метод предназначен для получения списка сообщений, находящихся в очереди на отправку. 
 // Скорость отправки сообщений из очереди регулирует параметр Интервал отправки сообщений.
-// Подробнее https://basis-api.com/docs/api/queues/ShowMessagesQueue/
+// Подробнее https://ru-cabinet.basis-api.com/docs/ru/api/queues/ShowMessagesQueue/
 // 
 // Возвращаемое значение:
 //  ЧтениеJSON  - Ответ сервера
@@ -782,7 +782,7 @@
 КонецФункции
 
 // Метод предназначен для очистки очереди сообщений на отправку.
-// Подробнее https://basis-api.com/docs/api/queues/ClearMessagesQueue/
+// Подробнее https://ru-cabinet.basis-api.com/docs/ru/api/queues/ClearMessagesQueue/
 // 
 // Возвращаемое значение:
 //  ЧтениеJSON  - Ответ сервера
@@ -802,7 +802,7 @@
 #Область Группы
 
 // Метод предназначен для создания группового чата.
-// Подробнее https://basis-api.com/docs/api/groups/CreateGroup/
+// Подробнее https://ru-cabinet.basis-api.com/docs/ru/api/groups/CreateGroup/
 //
 // Параметры:
 //  ИмяГруппы - Строка - Наименование нового группового чата
@@ -833,7 +833,7 @@
 КонецФункции
 
 // Метод изменяет наименование группового чата.
-// Подробнее https://basis-api.com/docs/api/groups/UpdateGroupName/
+// Подробнее https://ru-cabinet.basis-api.com/docs/ru/api/groups/UpdateGroupName/
 //
 // Параметры:
 //  ИдГруппы - Строка - Идентификатор группового чата
@@ -858,7 +858,7 @@
 КонецФункции
 
 // Метод получает данные группового чата.
-// Подробнее https://basis-api.com/docs/api/groups/GetGroupData/
+// Подробнее https://ru-cabinet.basis-api.com/docs/ru/api/groups/GetGroupData/
 //
 // Параметры:
 //  ИдГруппы - Строка - Идентификатор группового чата
@@ -881,7 +881,7 @@
 КонецФункции
 
 // Метод добавляет участника в групповой чат.
-// Подробнее https://basis-api.com/docs/api/groups/AddGroupParticipant/
+// Подробнее https://ru-cabinet.basis-api.com/docs/ru/api/groups/AddGroupParticipant/
 //
 // Параметры:
 //  ИдГруппы - Строка - Идентификатор группового чата
@@ -906,7 +906,7 @@
 КонецФункции
 
 // Метод удаляет участника из группового чата.
-// Подробнее https://basis-api.com/docs/api/groups/RemoveGroupParticipant/
+// Подробнее https://ru-cabinet.basis-api.com/docs/ru/api/groups/RemoveGroupParticipant/
 //
 // Параметры:
 //  ИдГруппы - Строка - Идентификатор группового чата
@@ -931,7 +931,7 @@
 КонецФункции
 
 // Метод назначает участника группового чата администратором.
-// Подробнее https://basis-api.com/docs/api/groups/SetGroupAdmin/
+// Подробнее https://ru-cabinet.basis-api.com/docs/ru/api/groups/SetGroupAdmin/
 //
 // Параметры:
 //  ИдГруппы - Строка - Идентификатор группового чата
@@ -956,7 +956,7 @@
 КонецФункции
 
 // Метод лишает участника прав администрирования группового чата.
-// Подробнее https://basis-api.com/docs/api/groups/RemoveAdmin/
+// Подробнее https://ru-cabinet.basis-api.com/docs/ru/api/groups/RemoveAdmin/
 //
 // Параметры:
 //  ИдГруппы - Строка - Идентификатор группового чата
@@ -981,7 +981,7 @@
 КонецФункции
 
 // Метод производит выход пользователя текущего аккаунта из группового чата.
-// Подробнее https://basis-api.com/docs/api/groups/LeaveGroup/
+// Подробнее https://ru-cabinet.basis-api.com/docs/ru/api/groups/LeaveGroup/
 //
 // Параметры:
 //  ИдГруппы - Строка - Идентификатор группового чата, из которого необходимо выйти.
@@ -1009,7 +1009,7 @@
 
 // Метод предназначен для отметки сообщений в чате прочитанными.
 // Могут быть отмечены прочитанными все сообщения в чате или только одно заданное сообщение.
-// Подробнее https://basis-api.com/docs/api/marks/ReadChat/
+// Подробнее https://ru-cabinet.basis-api.com/docs/ru/api/marks/ReadChat/
 //
 // Параметры:
 //  ИдЧата - Строка - Идентификатор группового чата
@@ -1041,7 +1041,7 @@
 #Область Устройство
 
 // Метод предназначен для получения информации об устройстве (телефоне), на котором запущено приложение WhatsApp Business.
-// Подробнее https://basis-api.com/docs/api/phone/GetDeviceInfo/
+// Подробнее https://ru-cabinet.basis-api.com/docs/ru/api/phone/GetDeviceInfo/
 // 
 // Возвращаемое значение:
 //  ЧтениеJSON  - Ответ сервера
@@ -1061,7 +1061,7 @@
 #Область СервисныеМетоды
 
 // Метод проверяет наличие аккаунта WhatsApp на номере телефона.
-// Подробнее https://basis-api.com/docs/api/service/CheckWhatsapp/
+// Подробнее https://ru-cabinet.basis-api.com/docs/ru/api/service/CheckWhatsapp/
 //
 // Параметры:
 //  Телефон - Число - Номер телефона получателя в международном формате: 11 или 12 цифр; Пример: 79001234567 или 380123456789
@@ -1084,7 +1084,7 @@
 КонецФункции
 
 // Метод возвращает аватар корреспондента или группового чата.
-// Подробнее https://basis-api.com/docs/api/service/GetAvatar/
+// Подробнее https://ru-cabinet.basis-api.com/docs/ru/api/service/GetAvatar/
 //
 // Параметры:
 //  ИдЧата - Строка - Идентификатор корреспондента или группового чата
@@ -1107,7 +1107,7 @@
 КонецФункции
 
 // Метод предназначен для получения списка контактов текущего аккаунта.
-// Подробнее https://basis-api.com/docs/api/service/GetContacts/
+// Подробнее https://ru-cabinet.basis-api.com/docs/ru/api/service/GetContacts/
 // 
 // Возвращаемое значение:
 //  ЧтениеJSON  - Ответ сервера
@@ -1123,7 +1123,7 @@
 КонецФункции
 
 // Метод предназначен для получения списка чатов текущего аккаунта.
-// Подробнее https://basis-api.com/docs/api/service/GetContacts/
+// Подробнее https://ru-cabinet.basis-api.com/docs/ru/api/service/GetContacts/
 // 
 // Возвращаемое значение:
 //  ЧтениеJSON  - Ответ сервера
@@ -1139,7 +1139,7 @@
 КонецФункции     
 
 // Метод предназначен для получения информации о контакте.
-// Подробнее https://basis-api.com/docs/api/service/GetContactInfo/
+// Подробнее https://ru-cabinet.basis-api.com/docs/ru/api/service/GetContactInfo/
 // 
 // Возвращаемое значение:
 //  ЧтениеJSON  - Ответ сервера
@@ -1160,7 +1160,7 @@
 КонецФункции
 
 // Метод архивирует чат. Архивировать можно чаты, в которых есть хотя бы одно входящее сообщение.
-// Подробнее https://basis-api.com/docs/api/service/archiveChat/
+// Подробнее https://ru-cabinet.basis-api.com/docs/ru/api/service/archiveChat/
 //
 // Параметры:
 //  ИдЧата - Строка - Идентификатор корреспондента или группового чата
@@ -1183,7 +1183,7 @@
 КонецФункции
 
 // Метод разархивирует чат.
-// Подробнее https://basis-api.com/docs/api/service/unarchiveChat/
+// Подробнее https://ru-cabinet.basis-api.com/docs/ru/api/service/unarchiveChat/
 //
 // Параметры:
 //  ИдЧата - Строка - Идентификатор корреспондента или группового чата
@@ -1206,7 +1206,7 @@
 КонецФункции
 
 // Метод удаляет сообщение из чата.
-// Подробнее https://basis-api.com/docs/api/service/deleteMessage/
+// Подробнее https://ru-cabinet.basis-api.com/docs/ru/api/service/deleteMessage/
 //
 // Параметры:
 //  ИдЧата - Строка - Идентификатор корреспондента или группового чата
